@@ -1,4 +1,4 @@
-. Algorithm
+ Algorithm
 Start the program.
 Create a queue named printerQueue to store print jobs.
 Display the Printer Queue menu.

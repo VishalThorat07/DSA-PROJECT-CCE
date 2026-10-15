@@ -11,11 +11,11 @@ history.
 
 - [Algorithm](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/algorithm/Algorithm_Disaster_Management.pdf)
 
-- [Flowchart PDF](linked%20list/Flowchart/Flowchart_Disaster_Management.pdf)
+- [Flowchart PDF](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/Flowchart/Flowchart_Disaster_Management.pdf)
 
-- [Output PDF](linked%20list/output/disaster%20response%20output.pdf)
+- [Output PDF](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/code%201/disaster%20response%20resource%20coordination%20sysytem.cpp)
 
-- [Source Code](linked%20list/code%201/disaster%20response%20resource%20coordination%20system.cpp)
+- [Source Code](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/output/disaster%20response%20output.pdf)
 ## Objective
 
 To help organize disaster-relief supplies and requests through a simple

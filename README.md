@@ -7,17 +7,12 @@ requests, dispatch resources, undo the last dispatch, and view activity
 history.
 
 ## Table of Contents
-
--   [Objective](#objective)
--   [Features](#features)
--   [Data Structures Used](#data-structures-used)
--   [Algorithm](#algorithm)
--   [Flowchart](#flowchart)
--   [C++ Source Code](#c-source-code)
--   [Sample Run](#sample-run)
--   [How to Compile and Run](#how-to-compile-and-run)
--   [Limitations and Future
-    Improvements](#limitations-and-future-improvements)
+-   
+-   [Algorithm](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/algorithm/Algorithm_Disaster_Management.pdf)
+-   [flowchart](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/Flowchart/Flowchart_Disaster_Management.pdf).
+-   [ Detail Flowchart](#flowchart)
+-   [output](#(https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/output/disaster%20response%20output.pdf))
+-   [code](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/code%201/disaster%20response%20resource%20coordination%20sysytem.cpp))
 
 ## Objective
 

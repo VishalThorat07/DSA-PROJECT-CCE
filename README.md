@@ -16,6 +16,7 @@ history.
 - [Output PDF](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/code%201/disaster%20response%20resource%20coordination%20sysytem.cpp)
 
 - [Source Code](https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/output/disaster%20response%20output.pdf)
+- [Detail Flowchart](#flowchart)
 ## Objective
 
 To help organize disaster-relief supplies and requests through a simple

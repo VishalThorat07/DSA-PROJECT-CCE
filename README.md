@@ -7,13 +7,15 @@ requests, dispatch resources, undo the last dispatch, and view activity
 history.
 
 ## Table of Contents
--   
--   [Algorithm](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/code%201/disaster%20response%20resource%20coordination%20sysytem.cpp)
--   [flowchart](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/Flowchart/Flowchart_Disaster_Management.pdf)
--   [ Detail Flowchart](#flowchart)
--   [output](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/output/disaster%20response%20output.pdf)
--   [code](#https://github.com/VishalThorat07/DSA-PROJECT-CCE/blob/main/linked%20list/code%201/disaster%20response%20resource%20coordination%20sysytem.cpp)
+## Project Resources
 
+- [Algorithm](linked%20list/code%201/disaster%20response%20resource%20coordination%20system.cpp)
+
+- [Flowchart PDF](linked%20list/Flowchart/Flowchart_Disaster_Management.pdf)
+
+- [Output PDF](linked%20list/output/disaster%20response%20output.pdf)
+
+- [Source Code](linked%20list/code%201/disaster%20response%20resource%20coordination%20system.cpp)
 ## Objective
 
 To help organize disaster-relief supplies and requests through a simple

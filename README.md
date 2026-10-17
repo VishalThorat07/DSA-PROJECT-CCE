@@ -1,4 +1,4 @@
-# Disaster Management Resource Management System
+# Disaster Response Resource coordination System
 
 A menu-driven **C++ console application** for managing disaster-relief
 resources such as water bottles, food packets, medicines, and first-aid

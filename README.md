@@ -1,4 +1,4 @@
-# Disaster Response Resource coordination System
+# 1. Disaster Response Resource coordination System
 
 A menu-driven **C++ console application** for managing disaster-relief
 resources such as water bottles, food packets, medicines, and first-aid
@@ -100,7 +100,7 @@ flowchart TD
     E -->|Invalid choice| S[Show invalid choice]
     S --> C
 ```
-# Book ID Lookup System using Threaded Binary Search Tree
+# 2. Book ID Lookup System using Threaded Binary Search Tree
 
 A menu-driven library catalogue tool that stores book IDs in a **threaded binary search tree**. NULL pointers are replaced with threads, so the catalogue can be traversed in sorted order and the next book can be found without recursion, an explicit stack, or wasted pointers.
 

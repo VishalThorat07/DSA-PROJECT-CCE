@@ -40,23 +40,6 @@ emergency.
 7.  **Display History** --- display resource-management activities.
 8.  **Exit** --- close the application.
 
-## Data Structures Used
-
-  -----------------------------------------------------------------------
-  Data structure                      Purpose
-  ----------------------------------- -----------------------------------
-  `struct Resource`                   Stores a resource name and
-                                      available quantity.
-
-  `struct Request`                    Stores the requested resource,
-                                      quantity, and request status.
-
-  `vector`                            Stores resources, requests, and
-                                      activity history dynamically.
-
-  `struct DispatchRecord`             Stores enough information to undo
-                                      the most recent dispatch.
-  -----------------------------------------------------------------------
 
 ## Algorithm
 
@@ -117,4 +100,106 @@ flowchart TD
     E -->|Invalid choice| S[Show invalid choice]
     S --> C
 ```
- 
+# Book ID Lookup System using Threaded Binary Search Tree
+
+A menu-driven library catalogue tool that stores book IDs in a **threaded binary search tree**. NULL pointers are replaced with threads, so the catalogue can be traversed in sorted order and the next book can be found without recursion, an explicit stack, or wasted pointers.
+
+## Why Threaded BST?
+
+| Problem with a plain BST | How this project solves it |
+|---|---|
+| Inorder traversal needs recursion or a stack | Threads link each node directly to its inorder successor |
+| Finding the next book in order is slow | Successor lookup follows one thread or a short leftmost walk |
+| Many pointers are NULL and unused | Every NULL pointer is reused as a thread |
+
+## Features
+
+- **Insert** a unique Book ID in BST order, with automatic thread updates
+- **Find the inorder successor** of any book, using threads only
+- **Inorder traversal** of all Book IDs in sorted order, without recursion or a stack
+- **Thread display** showing every node's left and right link as a child or a thread
+- Duplicate ID rejection, missing-ID and last-book messages, and input validation
+
+## How Threads Work
+
+- A NULL **left** pointer points to the node's **inorder predecessor**.
+- A NULL **right** pointer points to the node's **inorder successor**.
+- Each node stores flags (`leftThread`, `rightThread`) to tell a thread from a child link.
+- The leftmost node's left thread and the rightmost node's right thread remain NULL.
+
+## Example
+
+Insert the IDs `50, 30, 70, 20, 40, 60`:
+
+```
+Inorder traversal : 20  30  40  50  60  70
+Successor of 30   : 40
+Successor of 70   : No inorder successor (last book).
+Successor of 99   : Book ID not found.
+```
+
+## Project Structure
+
+```
+.
+├── src/
+│   └── ThreadedBST.(c|cpp|java|py)   # Node and ThreadedBST class, menu loop
+├── docs/
+│   ├── problem_statement.pdf         # Problem definition
+│   ├── algorithms.md                 # Insert, successor, traversal, thread display
+│   └── flowcharts.pdf                # Flowcharts for each algorithm
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+- A C++, Java, or Python 3 compiler/interpreter
+
+### Run
+```bash
+# Python example
+python3 src/ThreadedBST.py
+```
+
+## Usage
+
+```
+===== Book ID Lookup System =====
+1. Insert Book ID
+2. Find Inorder Successor
+3. Display Inorder Traversal
+4. Display Threads
+5. Exit
+Enter choice: 1
+Enter Book ID: 50
+Book ID 50 inserted successfully.
+```
+
+## Complexity
+
+| Operation | Time | Extra space |
+|---|---|---|
+| Insert | O(h) | O(1) |
+| Find inorder successor | O(h) | O(1) |
+| Inorder traversal | O(n) | O(1) |
+| Thread display | O(n) | O(1) |
+
+`h` is the tree height (`O(log n)` on average, `O(n)` worst case) and `n` is the number of books.
+
+## Constraints
+
+- Book IDs are unique positive integers.
+- Data is held in memory and is not saved between runs.
+- Deletion is not supported in this version.
+
+## Future Scope
+
+- Delete a book and rebalance threads
+- Store titles, authors, and shelf locations
+- Save and load the catalogue from a file
+- Search by title or author with a GUI front end
+
+## License
+
+This project is intended for academic use. Add your preferred license here. 

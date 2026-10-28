@@ -76,7 +76,7 @@ Total Cost| 9
 
 All five depots are connected using four communication links, and the total installation cost is 9 units.
 
-📊 Algorithm Analysis
+# 📊 Algorithm Analysis
 
 Let:
 
@@ -91,7 +91,7 @@ Adjacency list with a binary min-heap| (O(E\log V))
 
 The space complexity is typically (O(V+E)) for an adjacency-list representation, excluding implementation-specific auxiliary structures.
 
-🌟 Applications
+# 🌟 Applications
 
 - Communication network design for public transport depots.
 - Minimizing infrastructure installation costs.
@@ -100,7 +100,7 @@ The space complexity is typically (O(V+E)) for an adjacency-list representation,
 - Connecting distributed operational facilities.
 - Learning graph algorithms and greedy optimization techniques.
 
-✅ Advantages
+# ✅ Advantages
 
 - Minimizes the total cost of connecting all depots.
 - Avoids unnecessary communication links and cycles.
@@ -108,7 +108,7 @@ The space complexity is typically (O(V+E)) for an adjacency-list representation,
 - Can be adapted to different graph representations.
 - Demonstrates a practical use of Minimum Spanning Trees.
 
-⚠️ Limitations
+ # ⚠️ Limitations
 
 - The basic algorithm assumes an undirected graph with meaningful edge weights.
 - If the graph is disconnected, a single spanning tree covering all depots does not exist.
@@ -117,9 +117,9 @@ The space complexity is typically (O(V+E)) for an adjacency-list representation,
 
 🚀 How to Run
 
-1. Clone the repository:
+1.  # repository of Graph:
    
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+   GRAPH  https://github.com/VishalThorat07/DSA-PROJECT-CCE/tree/main/Graph
 
 2. Navigate to the project directory:
    
@@ -138,7 +138,7 @@ The space complexity is typically (O(V+E)) for an adjacency-list representation,
    
    For Java, compile and run the appropriate class containing the "main" method.
 
- Project Structure
+# Project Structure
 
 public-transport-depot-network/
 ├── README.md
@@ -147,7 +147,7 @@ public-transport-depot-network/
 
 The structure above is an example for a C++ implementation. Update the filenames to match your actual repository.
 
- Future Enhancements
+#  Future Enhancements
 
 - Accept depot names and link costs as user input.
 - Display the selected communication links and minimum total cost.
@@ -156,7 +156,7 @@ The structure above is an example for a C++ implementation. Update the filenames
 - Support disconnected graphs and report when a complete network is impossible.
 - Extend the model to consider link reliability and communication latency.
 
-Conclusion
+# Conclusion
 
 The Public Transport Depot Communication Network project demonstrates how Prim's Algorithm can be used to connect multiple depots with minimum total installation cost.
 
@@ -166,7 +166,7 @@ This project illustrates the practical application of graph theory and greedy al
 
  Author
 
-Your Name
+# VISHAL THORAT
 
 GitHub: https://github.com/YOUR-USERNAME
 

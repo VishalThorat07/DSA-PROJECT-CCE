@@ -168,7 +168,7 @@ This project illustrates the practical application of graph theory and greedy al
 
 # VISHAL THORAT
 
-GitHub: https://github.com/YOUR-USERNAME
+https://github.com/VishalThorat07?tab=repositories
 
 ---
 

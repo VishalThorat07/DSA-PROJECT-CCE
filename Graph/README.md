@@ -1,4 +1,4 @@
-Public Transport Depot Communication Network Using Prim's Algorithm
+# Public Transport Depot Communication Network Using Prim's Algorithm
 
  Project Overview
 
